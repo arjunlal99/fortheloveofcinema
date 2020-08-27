@@ -1,0 +1,99 @@
+.jumbotron{
+  height: 70vh;
+  background-image: url('Cinema_Paradiso.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 20em;
+  margin: 0px;
+}
+
+.nav-item{
+  
+}
+
+.row{
+  padding-bottom: 35px;
+}
+
+#main{
+  color:white;
+  font-family: Noir;
+  font-size: 70px;
+  text-align: center;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+}
+
+#navigation{
+  background-color: #6db5ca;
+  margin: 0px;
+}
+
+#pages{
+
+}
+
+#quote-container{
+  background-color: #ff7235;
+  height: 15vh;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  padding-left: 0;
+
+}
+
+#quote{
+  align-self: baseline;
+}
+
+#outside{
+/*  background-color: #fdeac0;*/
+  background-color: #fcf5ef;
+}
+
+#inside{
+/*  background-color: #eaa933;*/
+  background-color: #fcf5ef;
+}
+
+#frames{
+/*  background-color: #048080;*/
+  background-color: #b8d8e0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#img1{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+#img2{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#footer{
+  background-color: #fbf3f2;
+}
+
+body{
+  background-color: #fcf5ef;
+}
+
+@font-face {
+  font-family: Odachi;
+  src: url(Odachi.woff);
+}
+
+@font-face{
+  font-family:Noir;
+  src: url(Noir_medium.otf)
+}
+
+@@keyframes zoom {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.25);}
+  100% {transform: scale(1);}
+}
